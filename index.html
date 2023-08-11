@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" />
+  <script src=index.js></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <title>Facebook</title>
+  <link id="page_favicon"
+    href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAD/hAAA////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABEQAAAAAAAAERAAAAAAAAAREAAAAAAAABEQAAAAAAAAERAAAAAAABERERAAAAAAEREREAAAAAARERERAAAAAAAREAAAAAAAABEQAAAAAAAAERERAAAAAAARERAAAAAAAAEREAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+    rel="icon" type="image/x-icon" />
+</head>
+
+<body>
+  <div class="bg-container">
+
+    <nav class="navbar sticky-nav navbar-expand-sm navbar-dark">
+      <div class="container">
+        <div class="collapse navbar-collapse" id="mynavbarz">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <img style="width: 80%; height: 100%" src="https://cdn.usbrandcolors.com/images/logos/facebook-logo.svg"
+                alt="" />
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Profile</a>
+            </li>
+            <li class="nav-item" style="margin-top: -0.35%;">
+              <a class="nav-link" href="javascript:void(0)">Messages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="javascript:void(0)">Docs</a>
+            </li>
+            <li style="float: right">
+              <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Search" />
+                <!-- <button class="btn btn-primary" type="button">Search</button> -->
+              </form>
+
+              <img class="notificationBell" style="width: 2%; height: 70%; margin-right: 1% 2%;"
+                src="https://cdn-icons-png.flaticon.com/512/3602/3602123.png" alt="" />
+              <img class="profileIcon" style="width: 2%; height: 65%; margin-right: 1% 1%;"
+                src="https://cdn-icons-png.flaticon.com/512/456/456212.png" alt="" />
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-sm-3" >
+          <div class="card mb-4">
+            <div class="card-image">
+              <img class="img-responsive"
+                src="https://www.popsci.com/uploads/2020/06/05/3NIEQB3SFVCMNHH6MHZ42FO6PA.jpg?auto=webp" width="100%"
+                height="20%">
+              <div class="card-img-overlay">
+                <img class="rounded-circle profilePicture"
+                  src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+              </div>
+              <h4 class="card-title card-titleProfile text-center ">Dave Gamache</h4>
+            </div>
+            <div class="card-content card-contentProfile text-center">
+              <p>I wish i was a little bit taller, wish i was balleri wish i had a girl.. also</p>
+            </div>
+            <div class="d-flex rounded-3 p-2 mb-4" style="justify-content: space-around;">
+              <div class="card-content">
+                <p class="small text-muted mb-1">Friends</p>
+                <p class="text-center mb-0">12M</p>
+              </div>
+              <div class="vl"></div>
+              <div class="card-content px-3">
+                <p class="small text-muted mb-1">Enemies</p>
+                <p class="text-center mb-0">1</p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <h5 class="card-title p-3" style="margin-left: 5%;">About</h5>
+
+            <div class="" style="margin-left: 5%;">
+
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <i class="fa fa-calendar"></i>
+                  Went to Oh, Canada
+                </li>
+                <li class="list-group-item">
+                  <i class="fa fa-users"></i>
+                  Became friends with Obama
+                </li>
+                <li class="list-group-item">
+                  <i class="fa fa-github"></i>
+                  Worked at Github
+                </li>
+                <li class="list-group-item">
+                  <i class="fa fa-home"></i>
+                  Lives in San Francisco, CA
+                </li>
+                <li class="list-group-item">
+                  <i class="fa fa-map-marker"></i>
+                  From Seattle, WA
+                </li>
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-sm-6" >
+          <div class="card">
+            <form class="d-flex">
+              <div class="input-group" style="margin: 4%;">
+                <input class="form-control" type="text" style="width: 10%; " placeholder="Message" />
+                <span class="input-group-text bi bi-camera" style="width: 10%;"> <svg xmlns="http://www.w3.org/2000/svg" width="100%"
+                    height="80%" fill="currentColor" class="bi bi-camera" viewBox="0 0 16 16">
+                    <path
+                      d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z" />
+                    <path
+                      d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
+                  </svg>
+                </span>
+              </div>
+
+            </form>
+            <div class="card-content">
+              <hr>
+            </div>
+            <span class="card-title"></span>
+            <div class="card-content">
+              <div class="card-img">
+                <img class="rounded-circle profilePictureBody" style="float: left;"
+                  src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+              </div>
+              <p class="top-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class="card-image cardImageBody mb-1">
+                <img class="img-responsive"
+                  style="width: 70%; height: 100%; margin-right: 5%; margin-bottom: 5%;"
+                  src="https://www.simplilearn.com/ice9/free_resources_article_thumb/prop2.JPG">
+                <img class="img-responsive" style="width: 21%; height: 30%; margin-bottom: 5%;"
+                  src="https://images.unsplash.com/photo-1631631480669-535cc43f2327?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHw%3D&w=1000&q=80">
+                <img class="img-responsive" style="width: 39%; height: 80%; margin-right: 5%;"
+                  src="http://az837918.vo.msecnd.net/publishedimages/articles/1733/en-CA/images/1/free-download-this-stunning-alberta-scene-for-your-device-background-image-L-6.jpg">
+                <img class="img-responsive" style="width: 52%; height: 100%;"
+                  src="https://images.hdqwalls.com/download/alberta-canada-4i-2560x1440.jpg">
+              </div>
+            </div>
+            <div class="card-content">
+              <hr>
+            </div>
+            <span class="card-title"></span>
+            <div class="card-content">
+              <div class="card-img">
+                <img class="rounded-circle profilePictureBody" style="float: left;"
+                  src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png">
+              </div>
+              <p class="top-left">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class="card-image cardImageBody mb-4">
+                <img class="img-responsive"
+                  style="width: 70%; height: 100%; margin-right: 5%; margin-bottom: 5%;"
+                  src="https://www.simplilearn.com/ice9/free_resources_article_thumb/prop2.JPG">
+                <img class="img-responsive" style="width: 21%; height: 30%; margin-bottom: 5%;"
+                  src="https://images.unsplash.com/photo-1631631480669-535cc43f2327?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHw%3D&w=1000&q=80">
+                <img class="img-responsive" style="width: 39%; height: 80%; margin-right: 5%;"
+                  src="http://az837918.vo.msecnd.net/publishedimages/articles/1733/en-CA/images/1/free-download-this-stunning-alberta-scene-for-your-device-background-image-L-6.jpg">
+                <img class="img-responsive" style="width: 52%; height: 100%;"
+                  src="https://images.hdqwalls.com/download/alberta-canada-4i-2560x1440.jpg">
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div class="col-sm-3" >
+          <div class="card mb-4">
+            <div class="alert alert-warning alert-dismissible cardAlert">
+              <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+              <strong>Visit your profile!</strong> Check yourself, you are not looking well.
+            </div>
+          </div>
+          <div class="card cardSponsored mb-4">
+            <h5 class="card-title p-3" style="margin-left: 2%;">Sponsored</h5>
+            <div class="card-image mx-auto">
+              <img class="img-responsive"
+                src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSN24B-5B3dFTCsu567v3eoD4qtWDvkfOFzbIlmdjnJcQU_X5Pl"
+                style="height: 100%; width: 100%;">
+            </div>
+            <div class="card-content cardContentSponsored mb-3">
+              <p>With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-outline-primary">Buy a ticket</a>
+            </div>
+
+          </div>
+          <div class="card scroll">
+            <div class="card-content" style="margin-top: 8%;">
+              <div class="card-img mx-auto">
+
+                <img class="rounded-circle profileMessages" style="float: left;"
+                  src="https://play-lh.googleusercontent.com/LosPYfjaz1pOL-I3XCTroj4vQVxfsF5629nzPJM4pIj2KLaQuLbwmXUqV-I1RT5u9A">
+
+
+              </div>
+              <div class="cardContentKampanya mb-3">
+                <p class="top-left">Trendyol</p>
+                <i class="fa fa-circle " style="color: green; margin-left: 5%;"> <i id="trendyolMessage"
+                    class="fst-normal" style="color: black; ">Online</i> </i>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-img mx-auto">
+
+                <img class="rounded-circle profileMessages" style="float: left;"
+                  src="https://seeklogo.com/images/H/hepsiburada-yuvarlak-logo-A7CED79D00-seeklogo.com.png">
+
+
+              </div>
+              <div class="cardContentKampanya mb-3">
+                <p class="top-left">Hepsiburada</p>
+                <i class="fa fa-circle top-left" id="hepsiburadaStatus" style="color: orange; margin-left: 5%;"> <i id="hepsiburadaMessage"
+                    class="fst-normal" style="color: black;">Left 7 mins ago</i> </i>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-img mx-auto">
+
+                <img class="rounded-circle profileMessages" style="float: left;"
+                  src="https://static-00.iconduck.com/assets.00/samsung-icon-512x512-0o72hicf.png">
+
+
+              </div>
+              <div class="cardContentKampanya mb-3">
+                <p class="top-left">Samsung</p>
+                <i class="fa fa-circle top-left" style="color: orange;margin-left: 5%;"> <i class="fst-normal"
+                    style="color: black;">Online</i> </i>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-img mx-auto">
+
+                <img class="rounded-circle profileMessages" style="float: left;"
+                  src="https://cdn.icon-icons.com/icons2/2622/PNG/512/brand_nike_icon_157863.png">
+
+
+              </div>
+              <div class="cardContentKampanya mb-3">
+                <p class="top-left">Nike</p>
+                <i class="fa fa-circle top-left" style="color: green;margin-left: 5%;"> <i class="fst-normal"
+                    style="color: black;">Online</i> </i>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-img mx-auto">
+
+                <img class="rounded-circle profileMessages" style="float: left;"
+                  src="https://play-lh.googleusercontent.com/1y7x7WzDkMiTU6UdbA5LBZcl1PxGUkwOIOxFEycb_q_-p3HynzpUd8mqv5BWkT4Gi-E=w240-h480-rw">
+
+
+              </div>
+              <div class="cardContentKampanya mb-3">
+                <p class="top-left">Teknosa</p>
+                <i class="fa fa-circle top-left" style="color: green;margin-left: 5%;"> <i class="fst-normal"
+                    style="color: black;">Online</i> </i>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-img mx-auto">
+
+                <img class="rounded-circle profileMessages" style="float: left;"
+                  src="https://play-lh.googleusercontent.com/PsF3pxzUvCAsb1fFsuLU1P_WwZ-FQ86Aatt-Po9FU7Fv3L4XyhJNjx79JOeotVBVLQ">
+
+
+              </div>
+              <div class="cardContentKampanya mb-3">
+                <p class="top-left">Cafe Nero</p>
+                <i class="fa fa-circle top-left" style="color: orange;margin-left: 5%;"> <i class="fst-normal"
+                    style="color: black;">Left 30 mins ago</i> </i>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-img mx-auto">
+
+                <img class="rounded-circle profileMessages" style="float: left;"
+                  src="https://seeklogo.com/images/M/Migros-logo-09BB1C8FEF-seeklogo.com.png">
+
+
+              </div>
+              <div class=" cardContentKampanya mb-3">
+                <p class="top-left">Migros</p>
+                <i class="fa fa-circle top-left" style="color: orange;margin-left: 5%;"> <i class="fst-normal"
+                    style="color: black;">Left 10 hours ago</i> </i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  </div>
+  <!-- chatbox -->
+  <div class="row col-sm-12" id="footer">
+    <button class="open-button">Trendyol</button>
+
+    <div class="chatBox-popup" id="newMessage">
+      <div class="messageTitle">
+        Kampanya Bildirimi
+        <button type="button" class="close popover-close" onclick="closeMessage()">
+          <i class="metarial-icons">x</i>
+        </button>
+      </div>
+      <div class="message-container scroll" id="message-container">
+        <p class="from-them">Trendyol Yeni Kampanya!</p>
+        <p class="from-them">Mart indirimlerini kaçırma!</p>
+        <p class="from-them lastThem">Bültene abone olmak için Evet, abone olmak istemiyorsan Hayır yazınız.</p>
+        <!-- <p class="from-me lastMine" id="evet">Evet</p> -->
+
+      </div>
+
+      <div class="messageSend">
+        <input id="myMessage" type="text" class="inputText from-me lastMine" id="myMessage" >
+        <button id="myMessageSend" type="button" class="chatSend" onclick="sendMessage()">Send</button>
+      </div>
+
+    </div>
+
+
+  </div>
+
+</body>
+
+</html>
